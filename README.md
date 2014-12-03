@@ -15,6 +15,7 @@ mdn [options] [command] <query>
 * `open` opens the first search result in the browser. If open is not specified, results are listed.
 
 ### Options
+* `-o`, `--open` same as `mdn open`.
 * `-p`, `--page` result's page. Defaults to 1.
 * `-l`, `--limit` results per page. Defaults to 5.
 * `-t`, `--topic` filter to apply (ie. js). Defaults to none.
