@@ -2,7 +2,7 @@
 
 var open = require('open');
 var req = require('superagent');
-var arg = require('minimist')(process.argv.slice(2));
+var arg = require('minimist')(process.argv.slice(2), { boolean: ['o', 'open'] });
 var url = 'https://developer.mozilla.org/en-US/search.json';
 var o = arg.o || arg.open || (arg._[0] == 'open' ? arg._.shift() : false);
 
