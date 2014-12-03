@@ -1,0 +1,37 @@
+{
+  "name": "mdn-search",
+  "version": "0.0.1",
+  "description": "Mozilla Developer Network search cli",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "mdn": "index.js"
+  },
+  "author": "Nicolás Arias",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.1.0",
+    "open": "0.0.5",
+    "superagent": "^0.21.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ezakto/mdn-search.git"
+  },
+  "keywords": [
+    "mozilla",
+    "developer",
+    "network",
+    "mdn",
+    "search",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/ezakto/mdn-search/issues"
+  },
+  "homepage": "https://github.com/ezakto/mdn-search"
+}
